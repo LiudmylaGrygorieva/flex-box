@@ -80,11 +80,13 @@
 
 
 .hi-item {
-    display: flex;    
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .item {
-    flex-grow: 1;
+    /*flex-grow: 1;*/
     flex-basis: 3.5em;
 }
 
