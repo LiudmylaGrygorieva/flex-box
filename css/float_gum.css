@@ -63,10 +63,6 @@
 }
 
 
-.hi-item {
-    display: flex;
-}
-
 .one {
     background-color: #EE82EE;
     flex-grow: 1;
@@ -80,6 +76,16 @@
 .third {
     background-color: #9ACD32;
     flex-grow: 1;
+}
+
+
+.hi-item {
+    display: flex;    
+}
+
+.item {
+    flex-grow: 1;
+    flex-basis: 3.5em;
 }
 
 
